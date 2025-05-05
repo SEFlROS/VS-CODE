@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+.botao-magico{
+    padding: 10px;
+    border:none;
+    font-size: 18px;
+    border-radius: 12px;
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.botao-magico:hover{
+    color: crimson;
+    transform: scale(1.1);
+    cursor: crosshair;
+}

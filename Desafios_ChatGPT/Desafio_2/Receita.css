@@ -1,0 +1,34 @@
+body{
+    background-color: rgba(110, 96, 96, 0.692);
+}
+
+img{
+    border: 2px solid rgba(0, 0, 0, 0.781);
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+ul{
+    border: 2px solid rgba(255, 217, 0, 0.788);
+    border-radius: 8px;
+
+}
+
+h5{
+    color: red
+}
+
+button{
+    background-color: rgba(255, 217, 0, 0.842);
+    color: red;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(255, 217, 0, 0.281);
+}

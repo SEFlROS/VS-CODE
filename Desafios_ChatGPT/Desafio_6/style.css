@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+
+}
+
+.title{
+    padding: 20px;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+
+}
+
+.title h1{
+    color:#0d47a1
+}
+.title p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+    h1, h2, h3, h4, h5{
+        color: #333;
+    }
+
+p,
+label{
+    color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="file"],
+textarea{
+    width: 400px;
+}
+
+textarea{
+    padding: 10px 5px;
+}
+.header{
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #333;
+    padding: 15px;
+    letter-spacing: 5px;
+}
+
+.brif-body{
+    padding: 2px 15px;
+    background-color: #f4f4f4;
+    letter-spacing: 2px;
+   
+
+}
+
+.description{
+    padding: 10px 15px;
+    background-color: #f4f4f4;
+    letter-spacing: 2px;
+    list-style: none;
+}   
+
+.description li{
+    list-style: none;
+}
+.form-container{
+    padding: 10px 15px;
+    background-color: #f4f4f4;
+    letter-spacing: 2px;
+   
+}
+
+.required-field{
+    color: rgba(255, 0, 0, 0.705);
+}
+.btn-submit{
+    width: 150px;
+    height: 45px;
+    background-color: #0d47a1;
+    color: #f4f4f4;
+    transition: 0.5s;
+}
+.btn-submit:hover{
+    border: 2px solid #0d47a1;
+    background-color: #f4f4f4;
+    color: #0d47a1;
+    cursor: pointer;
+}
