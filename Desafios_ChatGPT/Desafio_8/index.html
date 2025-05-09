@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!-- Lingua -->
+<head>
+    <!-- Responsividade -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNova v2</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      background: linear-gradient(to left, #fafafa, #ff5722);
+      font-family: Helvetica, sans-serif;
+      height: 100%;
+    }
+
+    .container {
+      padding: 30px;
+      border: 3px dotted #ff5722;
+      box-shadow: inset;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #444;
+      transition-duration: 0.3s;
+    }
+/* não é ":active" é "hover" */
+    h1:hover {
+      color: green;
+    }
+
+    button {
+      margin-top: 20px;
+      background-color: transparent;
+      color: #ff5722;
+      padding: 10px 15px;
+      border: 1px solid #ff5722;
+      text-transform: uppercase;
+    }
+
+    button:hover {
+      background-color: #ffccbc;
+    }
+
+    @media screen and (max-width: 700px) {
+      .container {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>TechNova Inovadora</h1>
+    </header>
+    <section>
+      <p>Transformando ideias em soluções digitais.</p>
+    </section>
+    <button>Saiba Mais</button>
+  </div>
+</body>
+</html>
